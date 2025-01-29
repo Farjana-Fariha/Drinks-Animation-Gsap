@@ -10,8 +10,6 @@ var tl = gsap.timeline({
 })
 
 tl.to("#fanta", {
-    // duration: 2.5,
-    // ease: "power1.out",
     top: "120%",
     left: "0%"
 }, 'affect')
@@ -41,8 +39,7 @@ var tl2 = gsap.timeline({
         trigger: ".three",
         start: "0% 95%",
         end: "0% 30%",
-        scrub: true,
-        markers: true,
+        scrub: true
     }
 })
 tl2.to("#fanta", {
